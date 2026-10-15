@@ -1,0 +1,6 @@
+{
+  "name": "SHU BREND — Erkaklar Kiyimlari Internet Do'koni",
+  "description": "SHU BREND erkaklar kiyimlari, oyoq kiyimlari va aksessuarlari rasmiy internet-do'koni. Zamonaviy kiyimlar, outfit builder, tezkor yetkazib berish va Telegram integratsiyasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
