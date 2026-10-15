@@ -254,8 +254,9 @@ app.put('/api/orders/:id/status', requireAdminAuth, async (req, res) => {
 app.post('/api/admin/login', async (req, res) => {
   try {
     const { username, password } = req.body;
-    const expectedUsername = process.env.ADMIN_LOGIN || 'admin';
-    const expectedPassword = process.env.ADMIN_PASSWORD || 'shu_brend_secure_password_2026';
+    
+const expectedUsername = process.env.ADMIN_LOGIN || 'ShuBrend_Admin_2026';
+const expectedPassword = process.env.ADMIN_PASSWORD || 'ShuBrend!K7#vQ92_mX4@pL8';
 
     if (username === expectedUsername && password === expectedPassword) {
       const token = crypto.randomBytes(32).toString('hex');
