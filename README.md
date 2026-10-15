@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# SHU BREND
 
-# Run and deploy your AI Studio app
+**SHU BREND** — erkaklar kiyimlari internet do‘koni.
 
-This contains everything you need to run your app locally.
+Zamonaviy kiyimlar, oyoq kiyimlar va aksessuarlarni tanlang.
 
-View your app in AI Studio: https://ai.studio/apps/cdf5feab-b5e1-4cc8-b97f-e036c380dcbe
+## Loyihani ishga tushirish
 
-## Run Locally
+1. Kompyuterda Node.js o‘rnatilgan bo‘lishi kerak.
+2. Terminalda `npm install` buyrug‘ini bajaring.
+3. `package.json` faylidagi mavjud ishga tushirish buyrug‘idan foydalaning.
 
-**Prerequisites:**  Node.js
+## Texnologiyalar
 
+- HTML
+- CSS
+- JavaScript / TypeScript
+- Vite va server
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
